@@ -21,8 +21,3 @@ JavaFX Windows SDK
 پس از آن هم نشد اما فایل کتابخانه ها در گوگل درایو به لینک زیر آپلود شد:
 
 https://drive.google.com/file/d/174JtDoFYNOXHxwAt7ir7gPjp_C-TXhjz/view?usp=sharing
-
-
-
-نیما کلیدری
-98108124
