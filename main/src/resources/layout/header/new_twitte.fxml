@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="new_twitte" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+   <children>
+      <Button id="send" layoutX="458.0" layoutY="10.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="113.0" styleClass="login" stylesheets="@../../css/styles.css" text="Send Twitte" />
+      <Button id="pic" layoutX="458.0" layoutY="57.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="113.0" styleClass="login" stylesheets="@../../css/styles.css" text="Select picture" />
+      <TextArea id="twitte_text" layoutX="14.0" layoutY="11.0" prefHeight="88.0" prefWidth="436.0" promptText="insert you new twitte" styleClass="username" stylesheets="@../../css/styles.css" wrapText="true" />
+   </children>
+</AnchorPane>

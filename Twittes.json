@@ -1,0 +1,246 @@
+[
+  {
+    "text": "",
+    "sender": "",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 0,
+    "time": "2021/03/29 02:43:42"
+  },
+  {
+    "text": "twitte 1 az erfan",
+    "sender": "erfan",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0,
+      1000008
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000000,
+    "time": "2021/08/23 14:47:38"
+  },
+  {
+    "text": "twitte 2 az erfan",
+    "sender": "erfan",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000001,
+    "time": "2021/08/23 14:47:41"
+  },
+  {
+    "text": "twitte 1 az sadat",
+    "sender": "sadat",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000002,
+    "time": "2021/08/23 14:48:54"
+  },
+  {
+    "text": "twitte 2 ax dar az sadat",
+    "sender": "sadat",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000003,
+    "time": "2021/08/23 14:49:19"
+  },
+  {
+    "text": "twitte 1 az moshtaba",
+    "sender": "mojtaba",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000004,
+    "time": "2021/08/23 14:50:08"
+  },
+  {
+    "text": "twitte 2 az moshtaba",
+    "sender": "mojtaba",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000005,
+    "time": "2021/08/23 14:50:13"
+  },
+  {
+    "text": "twitte 1 az mohammd",
+    "sender": "mohammad",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000006,
+    "time": "2021/08/23 14:52:08"
+  },
+  {
+    "text": "twitte 2 az mohammd ax dar",
+    "sender": "mohammad",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000007,
+    "time": "2021/08/23 14:52:34"
+  },
+  {
+    "text": "commente 1 az reza",
+    "sender": "reza",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000008,
+    "time": "2021/08/23 14:53:59"
+  },
+  {
+    "text": "twiite 1 az reza",
+    "sender": "reza",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000009,
+    "time": "2021/08/23 14:54:29"
+  },
+  {
+    "text": "twitte 2 az reza",
+    "sender": "reza",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000010,
+    "time": "2021/08/23 14:54:33"
+  },
+  {
+    "text": "twitte 1 az nima",
+    "sender": "nima",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000011,
+    "time": "2021/08/23 14:57:34"
+  },
+  {
+    "text": "twitte 2 az nima :)",
+    "sender": "nima",
+    "likes": [
+      "Likes:",
+      "erfan"
+    ],
+    "comments": [
+      0,
+      1000014
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000012,
+    "time": "2021/08/23 14:57:41"
+  },
+  {
+    "text": "salam man reza am",
+    "sender": "reza",
+    "likes": [
+      "Likes:"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000013,
+    "time": "2021/08/23 19:15:00"
+  },
+  {
+    "text": "afarin nima",
+    "sender": "erfan",
+    "likes": [
+      "Likes:",
+      "erfan"
+    ],
+    "comments": [
+      0
+    ],
+    "retwittes": [
+      "Retwittes:"
+    ],
+    "serial": 1000014,
+    "time": "2021/08/23 19:22:04"
+  }
+]

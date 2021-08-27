@@ -1,0 +1,56 @@
+#background {
+    -light-black: #2196f3;
+    -dark-highlight: #2196f3;
+    -dark-black: #2196f3;
+    -darkest-black: black;
+    -mid-gray: white;
+    -fx-background-color: -mid-gray;
+}
+.tool-bar {
+    -fx-base: -dark-black;
+    -fx-font-size: 12pt;
+    -fx-background-color:#2196f3;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: .9em 0.416667em .9em 0.416667em;
+    -fx-effect: dropshadow(two-pass-box,black,5,.2,0,0);
+}
+.segmented-button-bar .button {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 20;
+    -fx-background-color:
+            -darkest-black,
+            -dark-highlight,
+            linear-gradient(to bottom, -light-black 2%, -dark-black 98%);
+    -fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 0;
+    -fx-padding: 0.4em 1.833333em 0.4em 1.833333em;
+}
+
+.segmented-button-bar .button.first {
+    -fx-background-insets: 0, 1, 2 1 1 1;
+    -fx-background-radius: 3 0 0 3, 2 0 0 2, 2 0 0 2;
+}
+
+.segmented-button-bar .button.last {
+    -fx-background-insets: 0, 1 1 1 0, 2 1 1 1;
+    -fx-background-radius: 0 3 3 0, 0 2 2 0, 0 2 2 0;
+}
+
+.segmented-button-bar .button:pressed {
+    -fx-background-color:
+            -darkest-black,
+            black,
+            linear-gradient(to top, -light-black 2%, -dark-black 98%);
+}
+
+.segmented-button-bar .bar:hover {
+    -fx-text-fill: white;
+    -fx-background-color:
+            -darkest-black,
+            white,
+            linear-gradient(to top, -light-black 2%, -dark-black 98%);
+}
+
+.tool-bar .spacer {
+    -fx-padding: 0 5.417em 0 0;
+}

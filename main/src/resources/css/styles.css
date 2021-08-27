@@ -1,0 +1,166 @@
+.login {
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-font-size: 20;
+  -fx-border-color: #2196f3;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-background-color: #ffffff;
+  transition-duration: 0.4s;
+}
+
+.login:hover {
+  transition-duration: 0.4s;
+  -fx-background-color: #2196f3;
+  -fx-text-fill: white;
+  -fx-color: white;
+}
+
+.logined {
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-font-size: 20;
+  -fx-border-color: #2196f3;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-background-color: #2196f3;
+  transition-duration: 0.4s;
+  -fx-text-fill: white;
+}
+
+.logined:hover {
+  transition-duration: 0.4s;
+  -fx-background-color: white;
+  -fx-color: #2196f3;
+  -fx-text-fill: black;
+}
+
+.register {
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-font-size: 20;
+  -fx-border-color: #2196f3;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-background-color: #ffffff;
+  -fx-transition-duration: 0.4s;
+}
+
+.register:hover {
+  -fx-transition-duration: 0.4s;
+  -fx-background-color: #2196f3;
+  -fx-text-fill: white;
+  -fx-color: white;
+}
+
+.search {
+  -fx-background-image: url("../img/search.png");
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-font-size: 20;
+  -fx-background-color: #f4f4f4;
+  transition-duration: 0.4s;
+}
+
+.search:hover {
+  -fx-background-image: url("../img/search_hovered.png");
+  transition-duration: 0.4s;
+  -fx-background-color: #2196f3;
+  -fx-color: white;
+}
+
+.username{
+  -fx-font-size: 20;
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-border-insets: none;
+  -fx-border-radius: 2px;
+  -fx-border-width: 1px;
+  -fx-border-color: #2196f3;
+}
+.username:focused {
+  -fx-border-insets: none;
+  -fx-border-radius: 2px;
+  -fx-border-width: 2px;
+  -fx-border-color: #2196f3;
+}
+
+.focused{
+  -fx-font-size: 20;
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-border-insets: none;
+  -fx-border-radius: 2px;
+  -fx-border-width: 4px;
+  -fx-border-color: #2196f3;
+}
+
+
+.wrong {
+  -fx-font-size: 20;
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-border-insets: none;
+  -fx-border-radius: 2px;
+  -fx-border-width: 2px;
+  -fx-border-color: red;
+}
+.accept {
+  -fx-font-size: 20;
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-border-insets: none;
+  -fx-border-radius: 2px;
+  -fx-border-width: 2px;
+  -fx-border-color: #20df50;
+}
+
+.toggle_accept {
+  -fx-border-color: #33cc33;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-background-color: white;
+  -transition-duration: 0.4s;
+  -fx-text-fill: black;
+}
+
+.toggle_accept:hover {
+  -transition-duration: 0.4s;
+  -fx-background-color: #33cc33;
+  -fx-color: white;
+  -fx-text-fill: white;
+}
+
+.toggle_wrong {
+  -fx-border-color: #ff0000;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-background-color: #ffffff;
+  -transition-duration: 0.4s;
+  -fx-text-fill: black;
+}
+
+.toggle_wrong:hover {
+  -transition-duration: 0.4s;
+  -fx-background-color: #ff0000;
+  -fx-color: white;
+  -fx-text-fill: white;
+}
+
+.toggle_regular {
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-border-color: #2196f3;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-background-color: #ffffff;
+  transition-duration: 0.4s;
+}
+
+.toggle_regular:hover {
+  transition-duration: 0.4s;
+  -fx-background-color: #2196f3;
+  -fx-color: white;
+  -fx-text-fill: white;
+}
+
+.unseen{
+  -fx-font-size: 20;
+  -fx-font-family: "Bodoni MT Condensed";
+  -fx-border-insets: none;
+  -fx-border-radius: 10px;
+  -fx-border-width: 1px;
+  -fx-border-color: #2196f3;
+}
+

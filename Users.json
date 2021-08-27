@@ -1,0 +1,281 @@
+[
+  {
+    "name": "Erfan mousavian",
+    "username": "erfan",
+    "password": "e",
+    "birthday": "2000/12/16",
+    "email": "erfanM@gmail.com",
+    "phonenumber": "0912647918",
+    "bio": "User1",
+    "ID": 100001,
+    "enable": true,
+    "lastseen": "Online",
+    "followings": [
+      "Followings:"
+    ],
+    "followers": [
+      "Followers:",
+      "reza"
+    ],
+    "blocks": [
+      "Blocks:"
+    ],
+    "mutes": [
+      "Mutes:"
+    ],
+    "privacy": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "account": false,
+    "twittesaved": [
+      0
+    ],
+    "pmsaved": [
+      0
+    ],
+    "categoiries": [
+      [
+        "Categories:"
+      ]
+    ],
+    "groups": [
+      [
+        "100000",
+        "AP"
+      ]
+    ]
+  },
+  {
+    "name": "Sadat Shokouhi",
+    "username": "sadat",
+    "password": "s",
+    "birthday": "2001/6/9",
+    "email": "sadatS@gmail.om",
+    "phonenumber": "09157914689",
+    "bio": "User2",
+    "ID": 100002,
+    "enable": true,
+    "lastseen": "2021/08/23 14:49:48",
+    "followings": [
+      "Followings:",
+      "mohammad"
+    ],
+    "followers": [
+      "Followers:",
+      "mohammad"
+    ],
+    "blocks": [
+      "Blocks:"
+    ],
+    "mutes": [
+      "Mutes:"
+    ],
+    "privacy": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "account": true,
+    "twittesaved": [
+      0
+    ],
+    "pmsaved": [
+      0
+    ],
+    "categoiries": [
+      [
+        "Categories:"
+      ]
+    ],
+    "groups": []
+  },
+  {
+    "name": "Mojtaba Olama",
+    "username": "mojtaba",
+    "password": "m",
+    "birthday": "2000/11/4",
+    "email": "mojtabaO@gmail.com",
+    "phonenumber": "09174836158",
+    "bio": "User3",
+    "ID": 100003,
+    "enable": true,
+    "lastseen": "2021/08/23 14:50:54",
+    "followings": [
+      "Followings:",
+      "reza"
+    ],
+    "followers": [
+      "Followers:"
+    ],
+    "blocks": [
+      "Blocks:"
+    ],
+    "mutes": [
+      "Mutes:"
+    ],
+    "privacy": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "account": true,
+    "twittesaved": [
+      0
+    ],
+    "pmsaved": [
+      0
+    ],
+    "categoiries": [
+      [
+        "Categories:"
+      ]
+    ],
+    "groups": []
+  },
+  {
+    "name": "Mohammad Torabi",
+    "username": "mohammad",
+    "password": "m",
+    "birthday": "2001/3/17",
+    "email": "mohammadT@yahoo.com",
+    "phonenumber": "09153486145",
+    "bio": "User4",
+    "ID": 100004,
+    "enable": true,
+    "lastseen": "Online",
+    "followings": [
+      "Followings:",
+      "sadat"
+    ],
+    "followers": [
+      "Followers:",
+      "sadat"
+    ],
+    "blocks": [
+      "Blocks:"
+    ],
+    "mutes": [
+      "Mutes:"
+    ],
+    "privacy": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "account": false,
+    "twittesaved": [
+      0
+    ],
+    "pmsaved": [
+      0
+    ],
+    "categoiries": [
+      [
+        "Categories:"
+      ]
+    ],
+    "groups": []
+  },
+  {
+    "name": "Reza Pishkoo",
+    "username": "reza",
+    "password": "r",
+    "birthday": "2000/8/21",
+    "email": "rezaP@hotmail.com",
+    "phonenumber": "09164879253",
+    "bio": "User5",
+    "ID": 100005,
+    "enable": true,
+    "lastseen": "2021/08/23 19:18:35",
+    "followings": [
+      "Followings:",
+      "erfan"
+    ],
+    "followers": [
+      "Followers:",
+      "nima",
+      "mojtaba"
+    ],
+    "blocks": [
+      "Blocks:"
+    ],
+    "mutes": [
+      "Mutes:"
+    ],
+    "privacy": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "account": false,
+    "twittesaved": [
+      0
+    ],
+    "pmsaved": [
+      0,
+      1000007
+    ],
+    "categoiries": [
+      [
+        "Categories:"
+      ]
+    ],
+    "groups": [
+      [
+        "100000",
+        "AP"
+      ]
+    ]
+  },
+  {
+    "name": "Nima Alizadeh",
+    "username": "nima",
+    "password": "n",
+    "birthday": "2000/12/31",
+    "email": "nimaA@roshdmail.com",
+    "phonenumber": "09142356165",
+    "bio": "User6",
+    "ID": 100006,
+    "enable": true,
+    "lastseen": "2021/08/23 14:59:25",
+    "followings": [
+      "Followings:",
+      "reza"
+    ],
+    "followers": [
+      "Followers:"
+    ],
+    "blocks": [
+      "Blocks:"
+    ],
+    "mutes": [
+      "Mutes:"
+    ],
+    "privacy": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "account": true,
+    "twittesaved": [
+      0
+    ],
+    "pmsaved": [
+      0
+    ],
+    "categoiries": [
+      [
+        "Categories:"
+      ]
+    ],
+    "groups": []
+  }
+]

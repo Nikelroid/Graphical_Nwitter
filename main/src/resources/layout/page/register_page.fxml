@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="register" layoutX="125.0" layoutY="531.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="170.0" styleClass="register" stylesheets="@../../css/styles.css" text="Register">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="20.0" />
+         </font></Button>
+      <Button id="login" layoutX="305.0" layoutY="531.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="170.0" styleClass="register" stylesheets="@../../css/styles.css" text="Back to Login">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="20.0" />
+         </font></Button>
+
+      <Label id="info" alignment="CENTER" layoutY="80.0" prefHeight="43.0" prefWidth="600.0" text="REGISTER" textAlignment="CENTER" textFill="#2196f3" textOverrun="CLIP">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="37.0" />
+         </font>
+      </Label>
+      <DialogPane layoutY="-5.0" prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #2196f3;" />
+      <ImageView id="exit" fitHeight="39.0" fitWidth="40.0" layoutX="555.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/err.png" />
+         </image>
+      </ImageView>
+      <TextField id="short_name" layoutX="125.0" layoutY="140.0" prefHeight="40.0" prefWidth="170.0" promptText="Short Name *" styleClass="username" stylesheets="@../../css/styles.css" />
+      <TextField id="user_name" layoutX="125.0" layoutY="190.0" prefHeight="40.0" prefWidth="350.0" promptText="Username *" styleClass="username" stylesheets="@../../css/styles.css" />
+      <TextField id="last_name" layoutX="305.0" layoutY="140.0" prefHeight="40.0" prefWidth="170.0" promptText="Last Name *" styleClass="username" stylesheets="@../../css/styles.css">
+      </TextField>
+      <PasswordField id="pass_word" layoutX="125.0" layoutY="240.0" prefHeight="40.0" prefWidth="170.0" promptText="Password *" styleClass="username" stylesheets="@../../css/styles.css">
+      </PasswordField>
+      <PasswordField id="c_pass" layoutX="305.0" layoutY="240.0" prefHeight="40.0" prefWidth="170.0" promptText="Confirm Password *" styleClass="username" stylesheets="@../../css/styles.css" />
+      <Label id="info" alignment="CENTER" layoutX="125.0" layoutY="289.0" prefHeight="40.0" prefWidth="89.0" text="Birhday date:" textAlignment="CENTER" textFill="#2196f3" textOverrun="CLIP">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="21.0" />
+         </font>
+      </Label>
+      <TextField id="year" layoutX="255.0" layoutY="290.0" prefHeight="40.0" prefWidth="100.0" promptText="Year" styleClass="username" stylesheets="@../../css/styles.css" />
+      <TextField id="mounth" layoutX="365.0" layoutY="290.0" prefHeight="40.0" prefWidth="50.0" promptText="M" styleClass="username">
+         <stylesheets>
+            <URL value="@../../css/styles.css" />
+            <URL value="@../../css/styles.css" />
+         </stylesheets></TextField>
+      <TextField id="day" layoutX="425.0" layoutY="290.0" prefHeight="40.0" prefWidth="50.0" promptText="D" styleClass="username">
+         <stylesheets>
+            <URL value="@../../css/styles.css" />
+            <URL value="@../../css/styles.css" />
+         </stylesheets></TextField>
+      <TextField id="email" layoutX="125.0" layoutY="340.0" prefHeight="40.0" prefWidth="350.0" promptText="Email address *" styleClass="username" stylesheets="@../../css/styles.css" />
+      <TextField id="phone_number" layoutX="125.0" layoutY="390.0" prefHeight="40.0" prefWidth="350.0" promptText="Phone number" styleClass="username" stylesheets="@../../css/styles.css" />
+      <TextField id="bio" alignment="TOP_LEFT" layoutX="125.0" layoutY="440.0" prefHeight="75.0" prefWidth="350.0" promptText="Bio" styleClass="username" stylesheets="@../../css/styles.css" />
+      <Label id="header" alignment="CENTER" layoutX="14.0" layoutY="2.0" prefHeight="43.0" text="NWITTER" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

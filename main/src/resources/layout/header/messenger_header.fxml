@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="60.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox id="hb" alignment="BASELINE_CENTER" layoutX="1.0" layoutY="15.0" styleClass="segmented-button-bar" stylesheets="@../../css/tool_bar.css">
+         <Button id="mass" mnemonicParsing="false" styleClass="first" stylesheets="@../../css/tool_bar.css" text="Mass chat" />
+         <Button id="new" mnemonicParsing="false" text="Private chat" />
+         <Button id="gp" mnemonicParsing="false" text="Group chat" />
+         <Button id="saved" mnemonicParsing="false" text="Saved messages" />
+         <Button id="saved_twittes" mnemonicParsing="false" styleClass="last" stylesheets="@../../css/tool_bar.css" text="Saved twittes" />
+      </HBox>
+   </children>
+</AnchorPane>

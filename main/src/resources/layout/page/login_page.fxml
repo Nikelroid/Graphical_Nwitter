@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+         <Button id="login" layoutX="226.0" layoutY="389.0" prefHeight="25.0" prefWidth="142.0" styleClass="login" stylesheets="@../../css/styles.css" text="Login">
+      </Button>
+      <Button id="register" layoutX="226.0" layoutY="440.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="142.0" styleClass="register" stylesheets="@../../css/styles.css" text="Register">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="20.0" />
+         </font></Button>
+      <CheckBox layoutX="226.0" layoutY="347.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="142.0" text="Remember me ">
+         <font>
+            <Font name="Bodoni MT Condensed" size="13.0" />
+         </font></CheckBox>
+      <PasswordField id="password" layoutX="197.0" layoutY="292.0" prefHeight="25.0" prefWidth="199.0" promptText="Password" styleClass="username" stylesheets="@../../css/styles.css">
+      </PasswordField>
+      <Label id="info" alignment="CENTER" layoutX="7.0" layoutY="153.0" prefHeight="43.0" prefWidth="588.0" text="Login or creat an account" textAlignment="CENTER" textFill="#2196f3" textOverrun="CLIP">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="37.0" />
+         </font>
+      </Label>
+      <TextField id="username" layoutX="197.0" layoutY="246.0" prefHeight="38.0" prefWidth="199.0" promptText="Username" styleClass="username" stylesheets="@../../css/styles.css">
+      </TextField>
+      <Accordion layoutX="14.0" layoutY="14.0" />
+      <DialogPane layoutY="-3.0" prefHeight="53.0" prefWidth="600.0" style="-fx-background-color: #2196f3;" />
+      <Label layoutX="14.0" layoutY="2.0" text="NWITTER" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="37.0" />
+         </font>
+      </Label>
+      <Button id="hack" layoutX="226.0" layoutY="507.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="142.0" styleClass="toggle_wrong" stylesheets="@../../css/styles.css" text="Hack Account" visible="false">
+         <font>
+            <Font name="Bodoni MT Poster Compressed" size="20.0" />
+         </font>
+      </Button>
+      <ImageView id="exit" fitHeight="39.0" fitWidth="40.0" layoutX="556.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/1200px-Sharif_logo.svg.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="100.0" prefWidth="580.0" styleClass="username" stylesheets="@../../css/styles.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+   <children>
+      <Button id="delete" layoutX="504.0" layoutY="28.0" mnemonicParsing="false" styleClass="toggle_wrong" stylesheets="@../../css/styles.css" text="Delete">
+         <font>
+            <Font name="Bodoni MT Condensed" size="21.0" />
+         </font>
+      </Button>
+      <Button id="message" layoutX="390.0" layoutY="28.0" mnemonicParsing="false" styleClass="login" stylesheets="@../../css/styles.css" text="Send message" />
+      <Button id="member" layoutX="304.0" layoutY="28.0" mnemonicParsing="false" styleClass="login" stylesheets="@../../css/styles.css" text="Members" />
+      <Label id="name" layoutX="28.0" layoutY="14.0">
+         <font>
+            <Font name="Bodoni MT Condensed" size="40.0" />
+         </font>
+      </Label>
+      <Label id="count" layoutX="28.0" layoutY="59.0" textFill="#858585">
+         <font>
+            <Font name="Bodoni MT Condensed" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

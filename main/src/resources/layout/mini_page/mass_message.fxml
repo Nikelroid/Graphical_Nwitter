@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="new_twitte" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="210.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+    <children>
+        <Button id="selected" layoutX="285.0" layoutY="14.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="145.0" styleClass="login" stylesheets="@../../css/styles.css" text="Send to select users" />
+        <Button id="cat" layoutX="150.0" layoutY="14.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="132.0" styleClass="login" stylesheets="@../../css/styles.css" text="Send to category" />
+
+        <Button id="all" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="132.0" styleClass="login" stylesheets="@../../css/styles.css" text="Send to all" />
+        <Button id="back" layoutX="14.0" layoutY="159.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="551.0" styleClass="login" stylesheets="@../../css/styles.css" text="Back" />
+
+        <Button id="pic" layoutX="434.0" layoutY="14.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="132.0" styleClass="login" stylesheets="@../../css/styles.css" text="Select picture" />
+        <TextArea id="text" layoutX="14.0" layoutY="65.0" prefHeight="86.0" prefWidth="551.0" promptText="insert you new twitte" styleClass="username" stylesheets="@../../css/styles.css" wrapText="true" />
+    </children>
+</AnchorPane>

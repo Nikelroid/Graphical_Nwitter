@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="70.0" maxWidth="580.0" minHeight="70.0" minWidth="580.0" prefHeight="70.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+   <children>
+      <TextField id="search_field" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="500.0" promptText="Insert Name or Username to search" styleClass="username" stylesheets="@../../css/styles.css" />
+      <Button id="search_button" graphicTextGap="5.0" layoutX="520.0" layoutY="10.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="search" stylesheets="@../../css/styles.css" />
+   </children>
+</AnchorPane>

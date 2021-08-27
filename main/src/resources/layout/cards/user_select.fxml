@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minWidth="-Infinity" prefHeight="60.0" prefWidth="590.0" styleClass="username" stylesheets="@../../css/styles.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+    <children>
+        <ImageView id="icon" fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../img/simple_avatar.png" />
+            </image>
+        </ImageView>
+        <Label id="username" layoutX="70.0" layoutY="10.0" prefHeight="40.0">
+            <font>
+                <Font name="Bodoni MT Condensed" size="27.0" />
+            </font></Label>
+        <Label id="name" layoutX="200.0" layoutY="17.0" textFill="#6c6c6c" />
+      <CheckBox id="select" layoutX="548.0" layoutY="16.0" mnemonicParsing="false" />
+    </children>
+    <cursor>
+        <Cursor fx:constant="HAND" />
+    </cursor>
+</AnchorPane>

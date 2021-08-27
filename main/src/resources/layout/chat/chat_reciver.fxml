@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="122.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+   <children>
+      <ImageView fitHeight="83.0" fitWidth="312.0" layoutX="79.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/bubble_reciever.png" />
+         </image>
+      </ImageView>
+      <Label id="name" layoutX="9.0" layoutY="17.0" prefHeight="24.0" prefWidth="74.0">
+         <font>
+            <Font name="Bodoni MT Condensed" size="19.0" />
+         </font>
+      </Label>
+      <ImageView id="icon" fitHeight="54.0" fitWidth="51.0" layoutX="20.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/simple_avatar.png" />
+         </image>
+      </ImageView>
+      <Label id="text" alignment="TOP_LEFT" layoutX="115.0" layoutY="17.0" prefHeight="75.0" prefWidth="162.0" wrapText="true">
+         <font>
+            <Font name="Bodoni MT Condensed" size="16.0" />
+         </font>
+      </Label>
+      <Label id="date" layoutX="108.0" layoutY="96.0" prefHeight="17.0" prefWidth="162.0">
+         <font>
+            <Font name="Bodoni MT Condensed" size="16.0" />
+         </font>
+      </Label>
+      <Button id="save" layoutX="374.0" layoutY="65.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefWidth="61.0" styleClass="share" stylesheets="@../../css/twitte.css" text="Save" />
+      <Button id="forward" layoutX="374.0" layoutY="29.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="61.0" styleClass="comment" stylesheets="@../../css/twitte.css" text="Forward" />
+      <Button id="delete" layoutX="446.0" layoutY="45.0" mnemonicParsing="false" prefHeight="3.0" prefWidth="61.0" styleClass="report" stylesheets="@../../css/twitte.css" text="Delete" />
+      <ImageView id="image" fitHeight="75.0" fitWidth="85.0" layoutX="284.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/image.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

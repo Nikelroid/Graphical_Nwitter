@@ -1,0 +1,42 @@
+[
+  {
+    "type": 5,
+    "user1": "Omidvaria",
+    "user2": "kamin"
+  },
+  {
+    "type": 9,
+    "user1": "reza",
+    "user2": "erfan"
+  },
+  {
+    "type": 9,
+    "user1": "nima",
+    "user2": "reza"
+  },
+  {
+    "type": 9,
+    "user1": "sadat",
+    "user2": "mohammad"
+  },
+  {
+    "type": 10,
+    "user1": "reza",
+    "user2": "mohammad"
+  },
+  {
+    "type": 8,
+    "user1": "reza",
+    "user2": "mohammad"
+  },
+  {
+    "type": 9,
+    "user1": "mojtaba",
+    "user2": "reza"
+  },
+  {
+    "type": 10,
+    "user1": "sadat",
+    "user2": "reza"
+  }
+]

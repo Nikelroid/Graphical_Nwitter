@@ -1,0 +1,82 @@
+[
+  {
+    "text": "1",
+    "sender": "",
+    "receiver": "",
+    "seen": false,
+    "serial": 0,
+    "time": ""
+  },
+  {
+    "text": "salam erfun",
+    "sender": "reza",
+    "receiver": "erfan",
+    "seen": true,
+    "serial": 1000000,
+    "time": "2021/08/23 14:54:50"
+  },
+  {
+    "text": "khubi pesar?",
+    "sender": "reza",
+    "receiver": "erfan",
+    "seen": true,
+    "serial": 1000001,
+    "time": "2021/08/23 14:55:00"
+  },
+  {
+    "text": "ghorbanet to khubi?",
+    "sender": "erfan",
+    "receiver": "reza",
+    "seen": true,
+    "serial": 1000002,
+    "time": "2021/08/23 14:55:32"
+  },
+  {
+    "text": "chikar mikoni ba darsa?",
+    "sender": "erfan",
+    "receiver": "reza",
+    "seen": true,
+    "serial": 1000003,
+    "time": "2021/08/23 14:55:40"
+  },
+  {
+    "text": "ino bebin :)",
+    "sender": "erfan",
+    "receiver": "reza",
+    "seen": true,
+    "serial": 1000004,
+    "time": "2021/08/23 14:56:00"
+  },
+  {
+    "text": "khkhkhhk bamaze bud",
+    "sender": "reza",
+    "receiver": "erfan",
+    "seen": false,
+    "serial": 1000005,
+    "time": "2021/08/23 14:56:22"
+  },
+  {
+    "text": "Like :D",
+    "sender": "reza",
+    "receiver": "erfan",
+    "seen": false,
+    "serial": 1000006,
+    "time": "2021/08/23 14:56:26"
+  },
+  {
+    "text": "salam",
+    "sender": "reza",
+    "receiver": "reza",
+    "seen": false,
+    "serial": 1000007,
+    "time": "2021/08/23 19:16:56"
+  },
+  {
+    "text": "khoobi? are?",
+    "sender": "reza",
+    "receiver": "*100000",
+    "seen": true,
+    "serial": 1000009,
+    "time": "2021/08/23 19:18:14"
+  }
+]

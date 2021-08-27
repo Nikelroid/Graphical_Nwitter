@@ -1,0 +1,142 @@
+.like {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #ff4d88;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -transition-duration: 0.4s;
+    -fx-text-fill: black;
+}
+
+.like:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: #ff4d88;
+    -fx-color: white;
+    -fx-text-fill: white;
+}
+.liked {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #ff4d88;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color:  #ff4d88;
+    -transition-duration: 0.4s;
+    -fx-text-fill: white;
+}
+
+.liked:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: white;
+    -fx-color: white;
+    -fx-text-fill: black;
+}
+
+.comment {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #2196f3;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -transition-duration: 0.4s;
+    -fx-text-fill: black;
+}
+
+.comment:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: #2196f3;
+    -fx-color: white;
+    -fx-text-fill: white;
+}
+
+.retwitte {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #33cc33;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -transition-duration: 0.4s;
+    -fx-text-fill: black;
+}
+
+.retwitte:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: #33cc33;
+    -fx-color: white;
+    -fx-text-fill: white;
+}
+
+.retwitted {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #33cc33;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #33cc33;
+    -transition-duration: 0.4s;
+    -fx-text-fill: white;
+}
+
+.retwitted:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: white;
+    -fx-color: white;
+    -fx-text-fill: black;
+}
+
+.share {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #404040;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -transition-duration: 0.4s;
+    -fx-text-fill: black;
+}
+
+.share:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: #404040;
+    -fx-color: white;
+    -fx-text-fill: white;
+}
+
+.saved {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #404040;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #404040;
+    -transition-duration: 0.4s;
+    -fx-text-fill: white;
+}
+
+.saved:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: white;
+    -fx-color: white;
+    -fx-text-fill: black;
+}
+
+.report {
+    -fx-font-family: "Bodoni MT Condensed";
+    -fx-font-size: 15;
+    -fx-border-color: #ff0000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #ffffff;
+    -transition-duration: 0.4s;
+    -fx-text-fill: black;
+}
+
+.report:hover {
+    -transition-duration: 0.4s;
+    -fx-background-color: #ff0000;
+    -fx-color: white;
+    -fx-text-fill: white;
+}

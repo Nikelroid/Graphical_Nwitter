@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="background" prefHeight="600.0" prefWidth="600.0" stylesheets="@../../css/segmented.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label id="info" alignment="CENTER" prefHeight="43.0" prefWidth="89.0" text="NWITTER" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+            <font>
+                <Font name="Bodoni MT Poster Compressed" size="37.0" />
+            </font>
+        </Label>
+        <DialogPane layoutY="-5.0" prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #2196f3;" />
+        <ImageView id="exit" fitHeight="39.0" fitWidth="40.0" layoutX="555.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../img/err.png" />
+            </image>
+            <rotationAxis>
+                <Point3D />
+            </rotationAxis>
+        </ImageView>
+        <Label id="header" alignment="CENTER" layoutX="14.0" layoutY="2.0" prefHeight="43.0" text="Notifications" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+            <font>
+                <Font name="Bodoni MT Poster Compressed" size="37.0" />
+            </font>
+        </Label>
+        <ToolBar layoutY="540.0" prefHeight="50.0" prefWidth="600.0" stylesheets="@../../css/segmented.css">
+            <items>
+                <HBox alignment="BASELINE_CENTER" styleClass="segmented-button-bar">
+                    <Button id="notifs" contentDisplay="CENTER" prefHeight="1.0" styleClass="first" stylesheets="@../../css/segmented.css" text="Notifications" />
+                    <Button id="clear" prefHeight="30.0" stylesheets="@../../css/segmented.css" text="Clear list" />
+                    <Button id="u_reqs" prefHeight="41.0" stylesheets="@../../css/segmented.css" text="Your request">
+                  <font>
+                     <Font size="13.0" />
+                  </font></Button>
+                    <Button id="o_reqs" prefHeight="41.0" styleClass="last" stylesheets="@../../css/segmented.css" text=" Others Requests" />
+                </HBox>
+            </items>
+        </ToolBar>
+
+        <ScrollPane id="scobar" layoutX="5.0" layoutY="48.0" prefHeight="490.0" prefWidth="595.0">
+            <VBox id="twittelist" layoutX="5.0" layoutY="50.0" prefHeight="482.0" prefWidth="580.0">
+            </VBox>
+        </ScrollPane>
+      <Button id="back" layoutX="268.0" layoutY="2.0" mnemonicParsing="false" styleClass="logined" stylesheets="@../../css/styles.css" text="Back" />
+    </children>
+</AnchorPane>

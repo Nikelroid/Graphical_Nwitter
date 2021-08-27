@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launch.Controller">
+   <children>
+      <ImageView id="pic" fitHeight="499.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/simple_avatar.png" />
+         </image>
+      </ImageView>
+      <Button id="select" layoutX="47.0" layoutY="528.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="192.0" styleClass="login" stylesheets="@../../css/styles.css" text="Select new picture" />
+      <Button id="back" layoutX="265.0" layoutY="528.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="192.0" styleClass="login" stylesheets="@../../css/styles.css" text="Back">
+         <font>
+            <Font name="Bodoni MT Condensed" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
