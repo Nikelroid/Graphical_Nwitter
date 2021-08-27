@@ -1,4 +1,4 @@
-# Graphical Nwitter
+#Graphical Nwitter
 (OFFLINE VERSION)
 با سلام. این پروژه با جاوا 15 ساخته شده است.
 از آنجا که برنامه با کتابحانه ی 
